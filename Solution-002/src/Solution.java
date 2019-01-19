@@ -1,14 +1,15 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution {
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("================================");
-        for(int i=0; i < 3; i++) {
-            String s1 = scan.next();
-            int x = scan.nextInt();
-            System.out.printf("%-14s %03d \n", s1, x);
-        }
-        System.out.println("================================");
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
 }
